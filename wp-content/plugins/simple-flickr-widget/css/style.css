@@ -1,0 +1,44 @@
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.row:after {
+  clear: both;
+}
+.row {
+  margin-bottom: 15px;
+}
+.simple_flicker_widget {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.simple_flicker_widget img {
+  height: auto;
+  padding: 5px;
+  width: 100%;
+}
+.simple_flicker_widget li {
+  position: relative;
+  min-height: 1px;
+  float: left;
+}
+.simple_flicker_widget.col-1 li{
+  width: 100%;
+}
+.simple_flicker_widget.col-2 li{
+  width: 50%;
+}
+.simple_flicker_widget.col-3 li{
+  width: 33.33333333%;
+}
+.simple_flicker_widget.col-4 li{
+  width: 25%;
+}
+.simple_flicker_widget.col-5 li{
+  width: 20%;
+}
+.simple_flicker_widget.col-6 li{
+  width: 16.66666666%;
+}
